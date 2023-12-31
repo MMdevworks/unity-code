@@ -9,13 +9,10 @@ public class PlayerController : MonoBehaviour
     private float turnSpeed = 50.0f;
     private float horizontalInput;
     private float forwardInput;
-    // Start is called before the first frame update
     void Start()
     {
         
     }
-
-    // Update is called once per frame
     void Update()
     {
         horizontalInput = Input.GetAxis("Horizontal"); 
